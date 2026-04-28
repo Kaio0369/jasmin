@@ -534,7 +534,7 @@ function tick(){
   // Player physics
   if(isJumping){
     playerBottom+=jumpVel;
-    jumpVel-=1.4=;
+    jumpVel-=0.6=;
     if(playerBottom<=PLAYER_BOTTOM){
       playerBottom=PLAYER_BOTTOM;
       isJumping=false;
